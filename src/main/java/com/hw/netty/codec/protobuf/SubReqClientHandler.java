@@ -48,7 +48,7 @@ public class SubReqClientHandler extends ChannelHandlerAdapter {
 	builder.setSubReqID(i);
 	builder.setUserName("lee");
 	builder.setProductName("Netty Book For Protobuf");
-	List<String> address = new ArrayList<>();
+	List<String> address = new ArrayList<String>();
 	address.add("NanJing YuHuaTai");
 	address.add("BeiJing LiuLiChang");
 	address.add("ShenZhen HongShuLin");

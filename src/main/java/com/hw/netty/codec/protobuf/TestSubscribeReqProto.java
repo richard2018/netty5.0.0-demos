@@ -42,7 +42,7 @@ public class TestSubscribeReqProto {
 	builder.setSubReqID(1);
 	builder.setUserName("lee");
 	builder.setProductName("Netty Book");
-	List<String> address = new ArrayList<>();
+	List<String> address = new ArrayList<String>();
 	address.add("NanJing YuHuaTai");
 	address.add("BeiJing LiuLiChang");
 	address.add("ShenZhen HongShuLin");
